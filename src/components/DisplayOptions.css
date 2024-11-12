@@ -1,0 +1,58 @@
+.display-options {
+  position: relative;
+  margin: 8px 0;
+}
+
+.display-button {
+  padding: 8px 16px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.display-button:hover {
+  background-color: #f8f9fd;
+  border-color: #c0c6cc;
+}
+
+.display-button:active {
+  background-color: #f0f2f8;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.options-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f0f6ff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.options-dropdown label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 8px;
+}
+
+.options-dropdown select {
+  margin-left: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+  

@@ -1,0 +1,84 @@
+.ticket-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.ticket-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cam-number {
+  color: #8D8D8D;
+  font-size: 0.9em;
+}
+
+.user-avatar {
+  width: 24px;
+  height: 24px;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  color: #666;
+}
+
+.status-row, .priority-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 4px;
+}
+
+.priority-icon, .feature-tag {
+  background-color: #f4f5f8;
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-tag span {
+  font-size: 12px;
+  color: #666;
+}
+
+.title-row {
+  margin: 8px 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.priority-icon .icon {
+  margin: 0;
+}
+
+.feature-tag .icon {
+  margin-right: 8px;
+}
+  
